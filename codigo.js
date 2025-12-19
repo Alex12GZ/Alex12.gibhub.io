@@ -1,7 +1,7 @@
 let nom = prompt("Ingrese su nombre");
 let ed = Number(prompt("Ingrese su edad"));
 let gen = prompt("Ingrese su genero (Masculino o Femenino)");
-let san = prompt("Ingrese su tipo de sangre (A+, A−, B+, B−, AB+, AB−, O+, O−)")
+let san = prompt("Ingrese su tipo de sangre (A+, A−, B+, B−, AB+, AB−, O+, O−)");
     gen = gen.toLowerCase().trim()
 let mes = ed * 12
 
@@ -28,3 +28,4 @@ document.write("Genero no reconocido")
 document.body.style.backgroundColor = "#f7b054ff"
 
 }
+
